@@ -1,0 +1,28 @@
+{
+  "name": "pdf-display",
+  "version": "1.0.0",
+  "description": "display pdf in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashe-senkatuuka/pdf-display.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashe-senkatuuka/pdf-display/issues"
+  },
+  "homepage": "https://github.com/ashe-senkatuuka/pdf-display#readme",
+  "dependencies": {
+    "@pdftron/webviewer": "^7.3.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2",
+    "pug": "^3.0.2"
+  }
+}
